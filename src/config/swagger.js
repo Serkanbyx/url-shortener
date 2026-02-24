@@ -8,6 +8,10 @@ const swaggerDefinition = {
     version: "1.0.0",
     description:
       "A simple and fast URL shortener REST API. Shorten long URLs, redirect via short codes, and track click statistics.",
+    contact: {
+      name: "Serkanby",
+      url: "https://serkanbayraktar.com/",
+    },
   },
   servers: [
     {

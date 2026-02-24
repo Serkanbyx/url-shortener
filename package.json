@@ -8,7 +8,10 @@
     "dev": "nodemon src/server.js"
   },
   "keywords": ["url-shortener", "express", "sqlite", "rest-api"],
-  "author": "",
+  "author": {
+    "name": "Serkanby",
+    "url": "https://serkanbayraktar.com/"
+  },
   "license": "MIT",
   "type": "commonjs",
   "engines": {

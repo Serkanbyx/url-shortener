@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: url-shortener
+    runtime: node
+    buildCommand: npm install
+    startCommand: node src/server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: BASE_URL
+        sync: false
+      - key: PORT
+        value: 10000
